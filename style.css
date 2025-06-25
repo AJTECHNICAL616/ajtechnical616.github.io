@@ -114,6 +114,7 @@ body {
 @media(max-width: 412px) {
     .navbar a {
         display: block;
+        color: transparent;
     }
     .search-box input{
         width: 150px;
