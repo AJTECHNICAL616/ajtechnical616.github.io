@@ -110,7 +110,7 @@ body {
 }
 @media(max-width: 412px) {
     .navbar {
-        height: 120px;
+        height: 60px;
         width: 100%;
     }
     .navbar a {
