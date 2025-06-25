@@ -109,6 +109,10 @@ body {
     color: white;
 }
 @media(max-width) {
+    .navbar {
+        height: 60px;
+        width: 100%;
+    }
     .navbar a {
         font-size: 10px;
     }
