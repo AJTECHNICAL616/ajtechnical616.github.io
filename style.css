@@ -113,7 +113,7 @@ body {
 
 @media(max-width: 412px) {
     .navbar a {
-        display: none;
+        display: block;
     }
     .search-box input{
         width: 150px;
