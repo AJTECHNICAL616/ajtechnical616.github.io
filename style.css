@@ -1,0 +1,146 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Background */
+
+body {
+    background: url("https://wallpapers.com/images/hd/4k-tech-8ud1fgpt22qs67c7.jpg" );
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #36454F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+}
+
+.navbar a:hover {
+    border : 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar i {
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.search-box {
+    width: 500px;
+}
+
+.search-box input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Hero Section (Main Body) */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 525px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    font-family: Comic Sans MS;
+}
+
+.hero-section img {
+    height: 300px;
+    margin-left: 100px;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 400px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.heading h2 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+/* Copyright Section */
+
+.footer {
+    height: 48px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer p {
+    color: white;
+}
+
+@media(max-width: 412px) {
+    .navbar a {
+        display: none;
+    }
+    .search-box input{
+        width: 150px;
+    }
+    .search-box {
+        width: 150px;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .navbar img {
+        display: none;
+    }
+    .hero-section {
+        display: block;
+        height: 810px;
+    }
+    .hero-section img {
+        height: 200px;
+        margin-top: 150px;
+    }
+    .heading {
+        margin: 0;
+        margin-top: 30px;
+    }
+    .footer {
+        height: 48px;
+        width: 100%;
+    }
+}
